@@ -12,6 +12,8 @@ Uses a lines array in the view to keep track of all the lines drawn.
 In the view, the drawrect method iterates through the lines array and draws each line
 whenever the setNeedsDisplay method is called after a touch
 
+![screenshot](http://i1066.photobucket.com/albums/u411/moralesalberto1/ScreenShot2012-05-07at70549AM.png "Screenshot")
+
 
 Further enhancements
 --------------------

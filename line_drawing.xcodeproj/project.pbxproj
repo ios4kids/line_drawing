@@ -15,6 +15,8 @@
 		B62D60041557876400E7C45E /* Line_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D60031557876400E7C45E /* Line_AppDelegate.m */; };
 		B62D60071557876400E7C45E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D60051557876400E7C45E /* MainStoryboard.storyboard */; };
 		B62D600A1557876400E7C45E /* Line_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D60091557876400E7C45E /* Line_ViewController.m */; };
+		B62D60121557885500E7C45E /* Line_View.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D60111557885500E7C45E /* Line_View.m */; };
+		B62D601515578B1B00E7C45E /* Line_Line.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D601415578B1B00E7C45E /* Line_Line.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		B62D5FF31557876400E7C45E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B62D5FF51557876400E7C45E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B62D5FF71557876400E7C45E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B62D5FFB1557876400E7C45E /* line_drawing-Info.plist */ = {isa = PBXFileReference; path = "line_drawing-Info.plist"; sourceTree = "<group>"; };
+		B62D5FFB1557876400E7C45E /* line_drawing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "line_drawing-Info.plist"; sourceTree = "<group>"; };
 		B62D5FFD1557876400E7C45E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B62D5FFF1557876400E7C45E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B62D60011557876400E7C45E /* line_drawing-Prefix.pch */ = {isa = PBXFileReference; path = "line_drawing-Prefix.pch"; sourceTree = "<group>"; };
-		B62D60021557876400E7C45E /* Line_AppDelegate.h */ = {isa = PBXFileReference; path = Line_AppDelegate.h; sourceTree = "<group>"; };
+		B62D60011557876400E7C45E /* line_drawing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "line_drawing-Prefix.pch"; sourceTree = "<group>"; };
+		B62D60021557876400E7C45E /* Line_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Line_AppDelegate.h; sourceTree = "<group>"; };
 		B62D60031557876400E7C45E /* Line_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Line_AppDelegate.m; sourceTree = "<group>"; };
 		B62D60061557876400E7C45E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B62D60081557876400E7C45E /* Line_ViewController.h */ = {isa = PBXFileReference; path = Line_ViewController.h; sourceTree = "<group>"; };
+		B62D60081557876400E7C45E /* Line_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Line_ViewController.h; sourceTree = "<group>"; };
 		B62D60091557876400E7C45E /* Line_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Line_ViewController.m; sourceTree = "<group>"; };
+		B62D60101557885500E7C45E /* Line_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line_View.h; sourceTree = "<group>"; };
+		B62D60111557885500E7C45E /* Line_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line_View.m; sourceTree = "<group>"; };
+		B62D601315578B1B00E7C45E /* Line_Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line_Line.h; sourceTree = "<group>"; };
+		B62D601415578B1B00E7C45E /* Line_Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line_Line.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 				B62D5FF21557876400E7C45E /* Frameworks */,
 				B62D5FF01557876400E7C45E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
 		};
 		B62D5FF01557876400E7C45E /* Products */ = {
@@ -80,6 +87,10 @@
 				B62D60021557876400E7C45E /* Line_AppDelegate.h */,
 				B62D60031557876400E7C45E /* Line_AppDelegate.m */,
 				B62D60051557876400E7C45E /* MainStoryboard.storyboard */,
+				B62D60101557885500E7C45E /* Line_View.h */,
+				B62D601315578B1B00E7C45E /* Line_Line.h */,
+				B62D601415578B1B00E7C45E /* Line_Line.m */,
+				B62D60111557885500E7C45E /* Line_View.m */,
 				B62D60081557876400E7C45E /* Line_ViewController.h */,
 				B62D60091557876400E7C45E /* Line_ViewController.m */,
 				B62D5FFA1557876400E7C45E /* Supporting Files */,
@@ -163,6 +174,8 @@
 				B62D60001557876400E7C45E /* main.m in Sources */,
 				B62D60041557876400E7C45E /* Line_AppDelegate.m in Sources */,
 				B62D600A1557876400E7C45E /* Line_ViewController.m in Sources */,
+				B62D60121557885500E7C45E /* Line_View.m in Sources */,
+				B62D601515578B1B00E7C45E /* Line_Line.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
